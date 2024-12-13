@@ -11,6 +11,7 @@
     4. 持续每次对越来越少的元素重复上面的步骤，直到没有任何一对数字需要比较。
 
 - 动图演示
+
 ![冒泡排序动图演示](https://www.runoob.com/wp-content/uploads/2019/03/bubbleSort.gif)
 
 - 代码实现
@@ -41,6 +42,7 @@ fn bubble_sort(arr: &mut [i32]) {
     3. 重复第二步，直到所有元素均排序完毕。
 
 - 动图演示
+
 ![选择排序动图演示](https://www.runoob.com/wp-content/uploads/2019/03/selectionSort.gif)
 
 - 代码实现
@@ -69,6 +71,7 @@ fn selection_sort(arr: &mut [i32]) {
     2. 从头到尾依次扫描未排序序列，将扫描到的每个元素插入有序序列的适当位置。（如果待插入的元素与有序序列中的某个元素相等，则将待插入元素插入到相等元素的后面。
 
 - 动图演示
+
 ![插入排序动图演示](https://www.runoob.com/wp-content/uploads/2019/03/insertionSort.gif)
 
 - 代码实现
@@ -94,6 +97,7 @@ fn insertion_sort(arr: &mut [i32]) {
     3. 递归地（recursive）把小于基准值元素的子数列和大于基准值元素的子数列排序。
 
 - 动图演示
+
 ![快速排序动图演示](https://www.runoob.com/wp-content/uploads/2019/03/quickSort.gif)
 
 - 代码实现
@@ -132,6 +136,7 @@ fn partition(arr: &mut [i32]) -> usize {
     5. 将另一序列剩下的所有元素直接复制到合并序列尾。
 
 - 动图演示
+
 ![归并排序动图演示](https://www.runoob.com/wp-content/uploads/2019/03/mergeSort.gif)
 
 - 代码实现
