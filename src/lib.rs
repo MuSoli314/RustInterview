@@ -1,1 +1,1 @@
-pub mod detail4question;
+// pub mod detail4question;
